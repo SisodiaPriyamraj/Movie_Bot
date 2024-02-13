@@ -1,0 +1,33 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 1.5rem;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    margin-right: 15px;
+    font-weight: bold;
+    color: #d1d1d1;
+    text-decoration: underline ;
+}
+
+.social-links a:hover {
+    color: #fff;
+}
+
+.Footer span {
+    border: 1px solid #4c4c4c;
+    width: 60px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}

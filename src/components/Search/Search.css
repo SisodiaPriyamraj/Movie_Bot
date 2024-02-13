@@ -1,0 +1,47 @@
+.Search {
+  display: flex;
+}
+
+.searchInner input {
+  border: 1px solid rgb(90, 87, 87);
+  background-color: rgb(53, 53, 53);
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  width: 20vw;
+  margin: 10px 0;
+  outline-style: none;
+  box-shadow: none;
+}
+
+.searchInner input:focus {
+  background-color: rgb(0, 0, 0);
+}
+
+.dropdown {
+  position: absolute;
+  z-index: 10;
+  background-color: rgb(36, 36, 36);
+  border-radius: 20px;
+  width: 250px;
+}
+
+.dropdownRow a {
+  padding: 10px 10px;
+  display: block;
+  margin: 0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+  width: 230px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.dropdownRow a:hover {
+  border-radius: 20px;
+  background-color: rgb(80, 80, 80);
+}

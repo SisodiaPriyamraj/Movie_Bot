@@ -1,0 +1,14 @@
+.MovieList {
+  padding: 0;
+}
+
+.CatTitle {
+  font-size: 1.75rem;
+  margin: 2.5rem;
+}
+
+.CardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

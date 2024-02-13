@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#root,
+.App {
+    min-height: 100%;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+}
